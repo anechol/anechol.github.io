@@ -1,0 +1,62 @@
+// PROJECTS PAGE
+#projects
+   clear: both
+   height: 100%
+   width: 100%
+   color: $dark
+
+.work
+   float: left
+   height: 100%
+   width: 35%
+   padding: 1px
+   span
+      position: relative
+      top: 230px
+      text-align: center
+   h1
+      font-weight: 700
+   @media screen and (min-width: $breakpoint-S) and (max-width: 1215px)
+      width: 100%
+      height: 100px
+      position: relative
+      float: none
+      span
+         top: 30px
+
+.gallery
+   margin: 0
+   padding: 0
+   height: 100%
+   width: 55%
+   position: relative
+   text-align: center
+   display: flex
+   flex-direction: row
+   align-items: center
+   justify-content: space-between
+   h5
+      margin: 0
+   .flexitem
+      padding: 30px
+      margin: 0 15px 0 0
+      img
+         height: 100px
+         width: 200px
+         border: 1px solid transparent
+         border-radius: 10px
+      .caplink
+         +link-button
+         margin-top: 15px
+      figcaption
+         line-height: 20px
+         margin: 5px
+         display: inline-flex
+   @media screen and (min-width: $breakpoint-S) and (max-width: 1215px)
+      width: 100%
+      height: 0
+      position: relative
+      top: 280px
+      float: none
+      text-align: center
+      justify-content: center
