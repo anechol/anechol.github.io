@@ -101,7 +101,7 @@ html, body {
   width: 100%; }
   @media screen and (min-width: 360px) and (max-width: 767px) {
     #about {
-      height: 180%; } }
+      height: 175%; } }
 
 .bio {
   float: left;
