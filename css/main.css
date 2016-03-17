@@ -43,6 +43,11 @@ html, body {
       .navbar li a:hover {
         color: #FFDFAE;
         transition: color .2s; }
+  @media screen and (min-width: 360px) and (max-width: 767px) {
+    .navbar ul {
+      padding: 0; }
+    .navbar h3 {
+      font-size: 15px; } }
 
 #index {
   height: 100%;
