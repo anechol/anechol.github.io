@@ -2,7 +2,6 @@
 #index
    height: 100%
    width: 100%
-   // color: $light
    background-image: url('/img/laptop.jpg')
    background-size: cover
    .intro
@@ -17,11 +16,18 @@
       p
          font-size: 18px
          color: $light
-      @media screen and (min-width: $breakpoint-XS) and (max-width: 767px)
+      @media screen and (min-width: $breakpoint-XS) and (max-width: 359px)
+         top: 150px
          h1
             font-size: 40px
          p
             font-size: 16px
+      @media screen and (min-width: $breakpoint-S) and (max-width: 767px)
+         h1
+            font-size: 40px
+         p
+            font-size: 16px
+
 .nextpage
    +link-button
    margin: auto

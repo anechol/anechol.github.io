@@ -43,6 +43,11 @@ html, body {
       .navbar li a:hover {
         color: #FFDFAE;
         transition: color .2s; }
+  @media screen and (min-width: 320px) and (max-width: 359px) {
+    .navbar ul {
+      padding: 0; }
+    .navbar h3 {
+      font-size: 12px; } }
   @media screen and (min-width: 360px) and (max-width: 767px) {
     .navbar ul {
       padding: 0; }
@@ -66,6 +71,13 @@ html, body {
     #index .intro p {
       font-size: 18px;
       color: #f2f2f2; }
+    @media screen and (min-width: 320px) and (max-width: 359px) {
+      #index .intro {
+        top: 150px; }
+        #index .intro h1 {
+          font-size: 40px; }
+        #index .intro p {
+          font-size: 16px; } }
     @media screen and (min-width: 360px) and (max-width: 767px) {
       #index .intro h1 {
         font-size: 40px; }
@@ -104,9 +116,12 @@ html, body {
 #about {
   height: 100%;
   width: 100%; }
+  @media screen and (min-width: 320px) and (max-width: 359px) {
+    #about {
+      height: 260%; } }
   @media screen and (min-width: 360px) and (max-width: 767px) {
     #about {
-      height: 175%; } }
+      height: 180%; } }
 
 .bio {
   float: left;
@@ -117,6 +132,15 @@ html, body {
   margin: 0 10px 10px 80px; }
   .bio p {
     font-size: 18px; }
+  @media screen and (min-width: 320px) and (max-width: 359px) {
+    .bio {
+      top: 0;
+      width: 80%;
+      padding: 5px;
+      margin: 20px 20px 0 20px;
+      float: none; }
+      .bio P {
+        font-size: 16px; } }
   @media screen and (min-width: 360px) and (max-width: 767px) {
     .bio {
       top: 0;
@@ -145,6 +169,15 @@ html, body {
   text-align: justify; }
   .skills p {
     font-size: 18px; }
+  @media screen and (min-width: 320px) and (max-width: 359px) {
+    .skills {
+      top: 0;
+      width: 80%;
+      padding: 5px;
+      margin: 20px 20px 0 20px;
+      float: none; }
+      .skills P {
+        font-size: 16px; } }
   @media screen and (min-width: 360px) and (max-width: 767px) {
     .skills {
       top: 0;
@@ -168,9 +201,12 @@ html, body {
   height: 100%;
   width: 100%;
   color: #242323; }
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    #projects {
+      height: 250%; } }
   @media screen and (min-width: 360px) and (max-width: 767px) {
     #projects {
-      height: 180%; } }
+      height: 175%; } }
 
 .work {
   float: left;
@@ -183,6 +219,14 @@ html, body {
     text-align: center; }
   .work h1 {
     font-weight: 700; }
+  @media screen and (min-width: 320px) and (max-width: 359px) {
+    .work {
+      width: 100%;
+      height: 80px;
+      position: relative;
+      float: none; }
+      .work span {
+        top: 30px; } }
   @media screen and (min-width: 360px) and (max-width: 767px) {
     .work {
       width: 100%;
@@ -249,6 +293,16 @@ html, body {
       line-height: 20px;
       margin: 5px;
       display: inline-flex; }
+  @media screen and (min-width: 320px) and (max-width: 359px) {
+    .gallery {
+      width: 100%;
+      height: 100%;
+      position: relative;
+      top: 30px;
+      float: none;
+      text-align: center;
+      flex-direction: column;
+      justify-content: center; } }
   @media screen and (min-width: 360px) and (max-width: 767px) {
     .gallery {
       width: 100%;
@@ -274,6 +328,9 @@ html, body {
   height: 100%;
   width: 100%;
   color: #fff; }
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    #contact {
+      height: 120%; } }
 
 .contactinfo {
   position: relative;
