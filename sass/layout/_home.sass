@@ -17,7 +17,11 @@
       p
          font-size: 18px
          color: $light
-
+      @media screen and (min-width: $breakpoint-XS) and (max-width: 767px)
+         h1
+            font-size: 40px
+         p
+            font-size: 16px
 .nextpage
    +link-button
    margin: auto

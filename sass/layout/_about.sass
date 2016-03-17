@@ -2,6 +2,8 @@
 #about
    height: 100%
    width: 100%
+   @media screen and (min-width: $breakpoint-XS) and (max-width: 767px)
+      height: 180%
 
 .bio
    float: left
@@ -12,6 +14,14 @@
    margin: 0 10px 10px 80px
    p
       font-size: 18px
+   @media screen and (min-width: $breakpoint-XS) and (max-width: 767px)
+      top: 0
+      width: 80%
+      padding: 5px
+      margin: 20px 20px 0 20px
+      float: none
+      P
+         font-size: 16px
    @media screen and (min-width: $breakpoint-S) and (max-width: $breakpoint-M)
       top: 10px
       width: 95%
@@ -30,6 +40,14 @@
    text-align: justify
    p
       font-size: 18px
+   @media screen and (min-width: $breakpoint-XS) and (max-width: 767px)
+      top: 0
+      width: 80%
+      padding: 5px
+      margin: 20px 20px 0 20px
+      float: none
+      P
+         font-size: 16px
    @media screen and (min-width: $breakpoint-S) and (max-width: $breakpoint-M)
       top: 0
       width: 95%
