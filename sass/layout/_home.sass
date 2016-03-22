@@ -4,6 +4,8 @@
    width: 100%
    background-image: url('/img/laptop.jpg')
    background-size: cover
+   @media screen and (min-width: $breakpoint-M)
+      height: 60%
    .intro
       position: relative
       top: 200px
@@ -17,7 +19,7 @@
          font-size: 18px
          color: $light
       @media screen and (min-width: $breakpoint-XS) and (max-width: 359px)
-         top: 150px
+         top: 130px
          h1
             font-size: 40px
          p
