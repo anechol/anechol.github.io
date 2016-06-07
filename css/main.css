@@ -55,13 +55,13 @@ html, body {
       font-size: 15px; } }
 
 #index {
-  height: 100%;
+  height: 95vh;
   width: 100%;
   background-image: url("/img/laptop.jpg");
   background-size: cover; }
   @media screen and (min-width: 768px) and (max-width: 1066px) {
     #index {
-      height: 60%; } }
+      height: 50vh; } }
   #index .intro {
     position: relative;
     top: 200px;
@@ -117,17 +117,17 @@ html, body {
     color: #EF7534; }
 
 #about {
-  height: 100%;
+  height: 90vh;
   width: 100%; }
   @media screen and (min-width: 320px) and (max-width: 359px) {
     #about {
-      height: 260%; } }
+      height: 260vh; } }
   @media screen and (min-width: 360px) and (max-width: 767px) {
     #about {
       height: 180%; } }
   @media screen and (min-width: 768px) and (max-width: 1066px) {
     #about {
-      height: 65%; } }
+      height: 60vh; } }
 
 .bio {
   float: left;
@@ -204,7 +204,7 @@ html, body {
 
 #projects {
   clear: both;
-  height: 100%;
+  height: 90vh;
   width: 100%;
   color: #242323; }
   @media screen and (min-width: 320px) and (max-width: 359px) {
@@ -215,7 +215,7 @@ html, body {
       height: 175%; } }
   @media screen and (min-width: 768px) and (max-width: 1066px) {
     #projects {
-      height: 60%; } }
+      height: 55vh; } }
 
 .work {
   float: left;
@@ -334,15 +334,18 @@ html, body {
 
 #contact {
   clear: both;
-  height: 80%;
+  height: 75vh;
   width: 100%;
-  color: #fff; }
+  color: #f2f2f2; }
+  @media screen and (min-width: 320px) and (max-width: 359px) {
+    #contact {
+      height: 100vh; } }
   @media screen and (min-width: 768px) and (max-width: 946px) {
     #contact {
-      height: 50%; } }
+      height: 40vh; } }
   @media screen and (min-width: 947px) and (max-width: 1066px) {
     #contact {
-      height: 40%; } }
+      height: 35vh; } }
 
 .contactinfo {
   position: relative;
