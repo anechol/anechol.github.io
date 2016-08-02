@@ -1,118 +1,172 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-   <!--build:css main.min.css-->
-   <link rel="stylesheet" href="/css/main.css">
-   <!--endbuild-->
-   <title>Ashley Echols | Web Developer</title>
-   <meta name="viewport" content="width=device-width", intial-scale=1>
+	<meta charset="UTF-8">
+	<title>Ashley Echols | Web Developer</title>
+
+	<meta name="author" content="Ashley Echols">
+	<meta name="description" content="Front End Web Developer who blurs the line between technology and art.">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="main.min.css">
 </head>
 
 <body>
-   <!-- HEADER AND NAV -->
-   <header class="header">
-      <nav class="navbar" role="navigation">
-         <ul>
-            <li>
-               <h3><a href="#index" class="smoothScroll">Home</a></h3>
-            </li>
-            <li>
-               <h3><a href="#about" class="smoothScroll">About</a></h3>
-            </li>
-            <li>
-               <h3><a href="#projects" class="smoothScroll">Projects</a></h3>
-            </li>
-            <li>
-               <h3><a href="#contact" class="smoothScroll">Contact</a></h3>
-            </li>
-         </ul>
-      </nav>
-   </header>
-   <!--INDEX PAGE-->
-   <section id="index">
-      <!-- NOTE: Maybe make this more appealing with a bg pic or something. -->
-      <div class="intro">
-         <h1><strong>Ashley Echols</strong></h1>
-         <p>Front End Web Developer</p>
-         <br />
-         <div class="nextpage">
-            <!-- FIXME: Make this more appealing. Change the phrase or remove the arrow. Kinda ugly tbh. -->
-            <h3><a href="#about" class="smoothScroll">Learn More</a></h3>
-         </div>
-      </div>
-   </section>
-   <!-- END INDEX-->
-   <!-- ABOUT PAGE-->
-   <section id="about">
-      <div class="bio">
-         <!-- FIXME: Edit this bio to sound more appealing. Just summarize what's in the resume. This shouldn't be text-heavy. Emphasis will be on showcasing portfolio. -->
-         <h1>Who I Am</h1>
-         <p>Howdy! I'm a creatively ambitious individual who graduated from Illinois State University with a B.S. in Psychology. During my junior year of college, I realized my heart wasn't really in Psychology. In summer of 2014, I decided to learn coding as a side project to make blog themes. After graduation, I dabbled in code until I realized how much I enjoyed mixing technology and art. And thus, the developer in me was born!</p>
-         <p>Aside from learning code, my biggest hobby is gaming. I consider myself a <em>huge</em> video game nerd as I've been playing since I was about 3. I plan on studying programming and game development in my spare time. I also enjoy writing fiction and practicing art using Photoshop, Blender, and Pyxel Edit.</p>
-         <br>
-         <!-- TODO: Maybe put something in the middle of both of these content boxes. -->
 
-      </div>
-      <div class="skills">
-         <h1>What I Do</h1>
-         <!-- NOTE: Include what you can offer to clients/company. Sell yourself and make it memorable. -->
-         <p>I'm a web developer who specializes in the Front End. I prefer smooth, clean work, which is reflected in the projects I've completed. Due to past jobs held, I'm comfortable working in group-oriented environments and enjoy learning from others. As a developer and creative mind, I believe the best quality anyone can have is a desire to learn more than they knew yesterday.</p>
-         <p>I've learned a handful of technologies that I use to build projects from the ground up.</p>
-         <p><strong>Languages:</strong> HTML5, CSS3 (Sass), Javascript (jQuery)</p>
-         <p><strong>Web Dev Tools:</strong> Atom, Brackets, Bootstrap, Command Line Interface (Bash), Foundation, Git, GitHub, Gulp, Materialize, Node.js, Responsive Design, Windows</p>
-      </div>
-   </section>
-   <!-- END ABOUT-->
-   <hr>
-   <!-- PROJECTS PAGE-->
-   <section id="projects">
-      <div class="work">
-         <span><h1>Projects</h1>
-        <p>This is a gallery of projects that I've completed</p></span>
-      </div>
-      <div class="gallery">
-         <figure class="flexitem">
-            <img src="/img/artist-site.PNG" alt="Artist Portfolio Template">
-            <figcaption>A responsive portfolio template made using HTML5, CSS3, and Javascript using the Bootstrap framework.</figcaption>
-            <figcaption class="caplink"><h5><a href="https://github.com/anechol/Portfolio/tree/master/art-template">Github Code</a></h5></figcaption>
-         </figure>
-         <figure class="flexitem">
-            <img src="/img/todo-list.PNG" alt="To-do List Image">
-            <figcaption>To-do List App: A simple to-do list application made to practice Javascript. Also used HTML and CSS.</figcaption>
-            <figcaption class="caplink"><h5><a href="https://github.com/anechol/Portfolio/tree/master/todo-list">Github Code</a></h5></figcaption>
-         </figure>
-         <figure class="flexitem">
-            <img src="/img/calculator.PNG" alt="Calculator Image">
-            <figcaption>Calculator App: A simple calculator application made to practice Javascript. Also used HTML and CSS.</figcaption>
-            <figcaption class="caplink"><h5><a href="https://github.com/anechol/Portfolio/tree/master/calculator">Github Code</a></h5></figcaption>
-         </figure>
-      </div>
-   </section>
-   <!-- END PROJECTS-->
-   <hr>
-   <!-- CONTACT PAGE-->
-   <section id="contact">
-      <div class="contactinfo">
-         <h1>Contact Me</h1>
-         <br>
-         <p>I am available for hire!</p>
-         <a href="mailto:ashleyne92@gmail.com"><img src="/img/mail.png" alt="Mail Icon" title="Email"></a>
-         <a href="https://github.com/anechol"><img src="/img/github.png" alt="Github Icon" title="Github"></a>
-         <!-- <a href="#contact"><img src="/img/facebook.png" alt="Facebook Icon" title="Facebook"></a> -->
-         <!-- <a href="#contact"><img src="/img/twitter.png" alt="Twitter Icon" title="Twitter"></a> -->
-         <a href="http://steamcommunity.com/profiles/76561198043767617/"><img src="/img/steam.png" alt="Steam Icon" title="Steam"></a>
-         <br>
-         <div class="resume">
-            <h3><a href="/AEchols-Dev.pdf">Resume</a></h3>
-         </div>
-      </div>
-   </section>
-   <footer class="footer">
-      <span><p>Copyright &copy; 2016 Ashley Echols - All Rights Reserved</p></span>
-   </footer>
-   <!-- END CONTACT-->
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-   <!--build:js main.min.js-->
-   <script src="/js/main.js"></script>
-   <!--endbuild-->
+	<!-- Header and Navbar -->
+	<header class="header">
+		<div class="container">
+
+				<a class="logo" href="">Ashley Echols</a>
+				<nav class="navbar" role="navigation">
+					<ul>
+						<li><a href="#about">About</a></li>
+						<li><a href="#work">Work</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</nav>
+
+		</div>
+	</header>
+	<main>
+		<!-- Intro Section -->
+		<section class="intro">
+			<div class="heading">
+				<span class="greeting">
+					<h1>Hi, I'm Ashley Echols, <span class="highlight">Game</span> and <span class="highlight">Front End Developer</span></h1>
+				<!-- TODO: Make this the resume button instead. Would be better than adding a whole
+				separate button elsewhere. -->
+				<a class="btn" href="/AEchols-Resume">Hire Me</a>
+				</span>
+			</div>
+		</section>
+
+		<!-- About and Process Section -->
+		<section id="about" class="about">
+			<article class="bio">
+				<div class="container">
+					<div class="row">
+						<div class="six columns">
+							<h2>Who I Am...</h2>
+							<p>Part video game nerd, part artist, I am a <span class="highlight">Front End Developer</span> based in Chicago, IL who utilizes hobbies as inspiration for my work. When I'm not creating websites or applications, I enjoy reading up on game design and development or creating pixel art.</p>
+						</div>
+
+						<div class="six columns">
+							<h2>What I Do...</h2>
+							<p>I specialize in <span class="highlight">Front End Development</span>. Using HTML5, CSS3, and a hint of JavaScript, I construct responsive and fluid sites to accomplish a variety of goals. Coding is akin to another form of art to me, so I make it a priority to incorporate a sizeable helping of creativity in my work.</p>
+						</div>
+					</div>
+				</div>
+			</article>
+
+			<article class="process">
+				<div class="container">
+					<div class="row">
+						<div class="four columns">
+							<img src="/img/plan-icon.gif" alt="Image of an animated, pixelated notpad." class="icon"><h4> Plan</h4>
+							<p>Research matters. I brainstorm, sketch wireframes, and scribble down a vast amount of ideas to ensure that my vision, in the spirit of the task at hand, comes to fruition.</p>
+						</div>
+
+						<div class="four columns">
+							<img src="/img/create-icon.gif" alt="Image of an animated, pixelated code bracket." class="icon"><h4>Create</h4>
+							<p>I build the skeleton of the site with HTML and dress it up pretty with CSS and a sprinkling of JavaScript. Sharp, simple design is my forte, and my goal is to present that in my work. I'm capable of using frameworks like Bootstrap or Skeleton or code by hand.</p>
+						</div>
+
+						<div class="four columns">
+							<img src="/img/test-icon.gif" alt="Image of an animated, pixelated wrench." class="icon"><h4>Test</h4>
+							<p>Gulp and BrowserSync make it easy to test my sites across relevant browsers that I support. My testing period does not end until I'm satisfied with the functionality and design of the final product.</p>
+						</div>
+
+					</div>
+				</div>
+			</article>
+		</section>
+
+		<!-- Work Section -->
+		<section id="work" class="work">
+			<div class="container">
+				<div class="row">
+
+					<div class="title twelve columns-sm">
+						<h2>Projects</h2>
+					</div>
+
+					<div class="flexbox twelve columns-sm">
+						<!-- Project 1 -->
+						<figure class="item">
+							<figcaption><h4>Ping Pong</h4></figcaption>
+							<img src="/img/pong.PNG" alt="Image displaying a preview of a ping pong browser game.">
+							<figcaption>A recreation of a classic game playable right in the browser. My first dip into game development and HTML5 Canvas was a difficult journey, but one I plan on powering through again.</figcaption>
+							<ul class="tags">
+								<li>HTML/CSS</li>
+								<li>JavaScript</li>
+								<li>Canvas</li>
+								<li>Game Development</li>
+							</ul>
+							<a href="https://github.com/anechol/pong" class="btn">GitHub Code</a>
+						</figure>
+
+						<!-- Project 2 -->
+						<figure class="item">
+							<figcaption><h4>Artist Portfolio</h4></figcaption>
+							<img src="/img/artist-site.PNG" alt="Image displaying a preview of an artist portfolio template.">
+							<figcaption>Many artists are unable to code their own websites, so I made it my mission to create a template that would solve that issue. It includes short bio and contact sections, with a flexbox gallery that showcases work and work info.</figcaption>
+							<ul class="tags">
+								<li>HTML/CSS</li>
+								<li>Sass</li>
+								<li>JavaScript</li>
+								<li>Responsive Design</li>
+							</ul>
+							<a href="https://github.com/anechol/Portfolio/tree/master/art-template" class="btn">GitHub Code</a>
+						</figure>
+
+						<!-- <figure class="item">
+							<img src="http://lorempixel.com/500/300" alt="Placeholder">
+							<figcaption>This is my first project completed. Blah, blah...</figcaption>
+							<ul class="tags">
+								<li>HTML/CSS</li>
+								<li>Sass</li>
+								<li>JavaScript</li>
+							</ul>
+						</figure> -->
+
+					</div>
+				</div>
+			</div>
+		</section>
+
+	</main>
+
+	<!-- Contact Footer -->
+	<footer id="contact" class="footer">
+		<div class="container table">
+			<div class="row">
+
+				<div class="contact twelve columns">
+					<h3>Let's Work Together</h3>
+					<p>If you're interested in working on a project with me, shoot me an email. I'm available for full-time positions or freelance work.</p>
+					<a href="mailto:ashleyne92@gmail.com" class="btn">Contact Me</a>
+				</div>
+
+				<div class="twelve columns">
+					<ul class="links">
+						<li><a href="https://github.com/anechol">GitHub</a></li> |
+						<li><a href="http://steamcommunity.com/profiles/76561198043767617/">Steam</a></li>
+						<!-- <li><a href="">Contact</a></li> -->
+					</ul>
+				</div>
+
+				<div class="copy twelve columns">
+					<p>Crafted With Skeleton</p>
+					<p>&copy; 2016 Ashley Echols</p>
+				</div>
+
+			</div>
+		</div>
+	</footer>
+
+	<script src="/js/main.js" charset="utf-8"></script>
 </body>
+
+</html>
