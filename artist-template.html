@@ -1,0 +1,220 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+   <title>Artist Portfolio Template</title>
+   <!--   BOOTSTRAP CSS-->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+   <!--   SITE CSS -->
+   <link rel="stylesheet" href="css/main.min.css">
+	<style media="screen">
+		@import url("https://fonts.googleapis.com/css?family=Dosis:700");@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic");body{background-color:#f3f1ed}#about,#contact,#portfolio{padding-top:50px}h1,h2,h3,h4,h5,h6{font-family:Dosis,sans-serif;text-transform:uppercase;color:#a52f4c}p{font-family:Open Sans,sans-serif;font-size:18px;color:#724362}.navbar{background:#724362;opacity:.5;transition:opacity .3s ease;opacity:1}.navbar .navbar-nav li a{font-size:20px;font-family:Dosis,sans-serif;text-transform:uppercase;text-shadow:none;color:#f3f1ed}.navbar .navbar-nav li>a:hover{background:#f3f1ed;color:#724362;opacity:1;transition:color .3s,opacity .3s,background .3s}.carousel-indicators li{background-color:#724362;border-color:#724362}.carousel-inner .item img{margin:0 auto;height:575px;min-width:100%;max-width:none}.carousel-control{opacity:0}.carousel-control,.carousel-control:hover{transition:opacity .3s}#about{height:100%;color:#989898}@media screen and (min-width:320px) and (max-width:768px){#about .row .col-sm-6{display:none}}.progress{border-radius:none;background-color:#bababa;height:14px}.progress,.progress-bar{background-image:none;box-shadow:none}.progress-bar{color:#724362;font-weight:700;border:.5px solid #f0c0ba;line-height:14px;background-color:#f0c0ba}.flexbox{width:100%;display:flex;flex-wrap:wrap;justify-content:center;align-content:center}.flex-item{position:relative;flex:none}.imgcaption{position:absolute;height:100%;line-height:300px;margin:auto;top:0;right:0;bottom:0;left:0;color:#e8e8e8;text-align:center;visibility:hidden}.flex-item:hover .imgcaption{visibility:visible;background-color:rgba(0,0,0,.85);cursor:pointer;transition:background-color .2s ease}#contact{height:100%}#contact .container{position:relative;top:100px}#contact h3{margin:30px}#contact a{width:0;text-decoration:none;color:#f0c0ba}#contact a:hover{color:#a52f4c;transition:color .3ss}
+	</style>
+
+     <!-- NOTE: Learn how you want the site to look on different viewports and fix grid to match -->
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+   <!--  NAV BAR-->
+   <!--   TODO Remember to add the logo here.-->
+   <header>
+      <nav class="navbar navbar-fixed-top">
+         <div class="container">
+            <div class="navbar-header">
+               <a href="" class="navbar-brand">
+                  <img src="" alt="Name and Logo Here">
+               </a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+               <ul class="nav navbar-nav navbar-right">
+                  <li>
+                     <a href="#about" class="">About</a>
+                  </li>
+                  <li>
+                     <a href="#portfolio" class="">Portfolio</a>
+                  </li>
+                  <li>
+                     <a href="#contact" class="">Contact</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+   </header>
+   <!--  END NAV BAR-->
+   <!--  HOME -->
+   <section id="home">
+      <div id="carousel" class="carousel slide" data-ride="carousel">
+         <!-- Indicators -->
+         <ol class="carousel-indicators">
+            <li data-target="#carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel" data-slide-to="1"></li>
+            <li data-target="#carousel" data-slide-to="2"></li>
+         </ol>
+
+         <!-- Wrapper for slides -->
+         <div class="carousel-inner" role="listbox">
+            <div class="item active">
+               <img class="img-responsive" src="http://lorempixel.com/g/1360/575/city" alt="">
+            </div>
+
+            <div class="item">
+               <img class="img-responsive" src="http://lorempixel.com/g/1360/575/transport" alt="">
+            </div>
+
+            <div class="item">
+               <img class="img-responsive" src="http://lorempixel.com/g/1360/575/cats" alt="">
+            </div>
+         </div>
+
+         <!-- Left and right controls for carousel -->
+         <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+         </a>
+         <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+         </a>
+      </div>
+   </section>
+   <!--   END HOME -->
+   <!--   ABOUT-->
+   <section id="about">
+      <div class="container">
+         <div class="row">
+            <div class="col-sm-4">
+               <img class="img-circle img-responsive" src="http://lorempixel.com/250/250/cats" alt="">
+            </div>
+            <!--  PROFILE-->
+            <div class="col-sm-8">
+               <h2>This is my story...</h2>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam nisi accusantium quia blanditiis quibusdam recusandae, reprehenderit! Cumque placeat explicabo, autem quas iste numquam ullam voluptatem consectetur, amet, dolor porro beatae.</p>
+               <br>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate ea eligendi, possimus repellendus minus velit modi voluptatem numquam autem fugit provident porro ipsum placeat blanditiis quod ratione veritatis rem optio.</p>
+            </div>
+            <div class="row">
+               <!--  PROGRESS BARS-->
+               <div class="col-sm-6 col-sm-offset-4">
+                  <h5>Full Color</h5>
+                  <div class="progress">
+                     <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" ariavaluemax="0" style="width:83%">83%</div>
+                  </div>
+                  <h5>Sketches</h5>
+                  <div class="progress">
+                     <div class="progress-bar" role="progressbar" aria-valuenow="67" aria-valuemin="0" ariavaluemax="100" style="width:92%">92%</div>
+                  </div>
+                  <h5>Specialty</h5>
+                  <div class="progress">
+                     <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" ariavaluemax="100" style="width:70%">70%</div>
+                  </div>
+                  <h5>Traditional</h5>
+                  <div class="progress">
+                     <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" ariavaluemax="100" style="width:58%">58%</div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!--   END ABOUT-->
+   <!--   NOTE Want to make this flexbox span the entire width of page. See if possible. If not, then leave it.-->
+   <!--   PORTFOLIO-->
+   <section id="portfolio">
+      <div class="container-fluid">
+         <h1>Portfolio</h1>
+         <!--FLEXBOX AND IMAGE GALLERY-->
+         <div class="flexbox">
+            <div class="flex-item">
+               <img class="img-responsive" src="http://lorempixel.com/300/300/cats" alt="">
+               <p class="imgcaption">Artwork Name</p>
+            </div>
+            <div class="flex-item">
+               <img class="img-responsive" src="http://lorempixel.com/300/300/nightlife" alt="">
+               <p class="imgcaption">Artwork Name</p>
+            </div>
+            <div class="flex-item">
+               <img class="img-responsive" src="http://lorempixel.com/300/300/food" alt="">
+               <p class="imgcaption">Artwork Name</p>
+            </div>
+            <div class="flex-item">
+               <img class="img-responsive" src="http://lorempixel.com/300/300/nature" alt="">
+               <p class="imgcaption">Artwork Name</p>
+            </div>
+            <div class="flex-item">
+               <img class="img-responsive" src="http://lorempixel.com/300/300/city" alt="">
+               <p class="imgcaption">Artwork Name</p>
+            </div>
+            <div class="flex-item">
+               <img class="img-responsive" src="http://lorempixel.com/300/300/technics" alt="">
+               <p class="imgcaption">Artwork Name</p>
+            </div>
+            <div class="flex-item">
+               <img class="img-responsive" src="http://lorempixel.com/300/300/business" alt="">
+               <p class="imgcaption">Artwork Name</p>
+            </div>
+            <div class="flex-item">
+               <img class="img-responsive" src="http://lorempixel.com/300/300/animals" alt="">
+               <p class="imgcaption">Artwork Name</p>
+            </div>
+            <div class="flex-item">
+               <img class="img-responsive" src="http://lorempixel.com/300/300/people" alt="">
+               <p class="imgcaption">Artwork Name</p>
+            </div>
+            <div class="flex-item">
+               <img class="img-responsive" src="http://lorempixel.com/300/300/abstract" alt="">
+               <p class="imgcaption">Artwork Name</p>
+            </div>
+            <div class="flex-item">
+               <img class="img-responsive" src="http://lorempixel.com/300/300/transport" alt="">
+               <p class="imgcaption">Artwork Name</p>
+            </div>
+            <div class="flex-item">
+               <img class="img-responsive" src="http://lorempixel.com/300/300/" alt="">
+               <p class="imgcaption">Artwork Name</p>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!--   END PORTFOLIO-->
+   <!--   CONTACT-->
+   <section id="contact">
+      <div class="container">
+         <div class="row">
+            <div class="col-sm-8 col-sm-offset-2 text-center">
+               <h1>Get in touch with me!</h1>
+               <p>I am available for commission.</p>
+            </div>
+            <div class="col-sm-4 col-sm-offset-2 text-center">
+               <img src="/img/mail.png" alt="Email Icon"><h3><a href="#contact">Email</a></h3>
+            </div>
+
+            <div class="col-sm-4 text-center">
+               <img src="/img/pencil.png" alt="Pencil Icon"><h3><a href="#contact">Patreon</a></h3>
+            </div>
+            <div class="col-sm-4 col-sm-offset-2 text-center">
+               <img src="/img/tumblr.png" alt="Tumblr Icon"><h3><a href="#contact">Tumblr</a></h3>
+            </div>
+            <div class="col-sm-4 text-center">
+               <img src="/img/twitter.png" alt="Twitter Icon"><h3><a href="#contact">Twitter</a></h3>
+            </div>
+         </div>
+         <br>
+         <br>
+         <div class="row">
+            <div class="col-sm-4 col-sm-offset-4 text-center">
+               <p><a href="#contact">Artist Terms of Services</a></p>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!--   END CONTACT-->
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/i18n/jquery-ui-i18n.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</body>
+
+</html>
