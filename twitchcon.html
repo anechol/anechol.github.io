@@ -67,7 +67,9 @@
 		</footer>
 	</div>
 
-	<script src="main.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){$(".fa").click(function(){$(".navbar").toggleClass("expand")}),$(".navbar li a").click(function(){$(".navbar").removeClass("expand")})});
+	</script>
 </body>
 
 </html>
