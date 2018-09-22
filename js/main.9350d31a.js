@@ -104,21 +104,21 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   // Override the current require with this new one
   return newRequire;
 })({"img\\work\\specimens1.png":[function(require,module,exports) {
-module.exports = "img/specimens1.b8ba9e12.png";
+module.exports = "../img/work/specimens1.b8ba9e12.png";
 },{}],"img\\work\\specimens2.png":[function(require,module,exports) {
-module.exports = "img/specimens2.a89810ab.png";
+module.exports = "../img/work/specimens2.a89810ab.png";
 },{}],"img\\work\\specimens3.png":[function(require,module,exports) {
-module.exports = "img/specimens3.60ecc12c.png";
+module.exports = "../img/work/specimens3.60ecc12c.png";
 },{}],"img\\work\\kellogg1.png":[function(require,module,exports) {
-module.exports = "img/kellogg1.a77b3421.png";
+module.exports = "../img/work/kellogg1.a77b3421.png";
 },{}],"img\\work\\kellogg2.png":[function(require,module,exports) {
-module.exports = "img/kellogg2.2836a031.png";
+module.exports = "../img/work/kellogg2.2836a031.png";
 },{}],"img\\work\\pcbasics1.png":[function(require,module,exports) {
-module.exports = "img/pcbasics1.e40167ce.png";
+module.exports = "../img/work/pcbasics1.e40167ce.png";
 },{}],"img\\work\\pcbasics2.png":[function(require,module,exports) {
-module.exports = "img/pcbasics2.bb0ebd83.png";
+module.exports = "../img/work/pcbasics2.bb0ebd83.png";
 },{}],"img\\work\\pcbasics3.png":[function(require,module,exports) {
-module.exports = "img/pcbasics3.d72d2ff3.png";
+module.exports = "../img/work/pcbasics3.d72d2ff3.png";
 },{}],"js\\main.js":[function(require,module,exports) {
 'use strict';
 
